@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89934ebb-3884-457a-b6bf-b5f19923f6de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../数据分析/3_Pandas/USvideos.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/3_Pandas/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/3_Pandas/data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile-1.0.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile-1.0.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile-1.0.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile-1.0.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile-1.0.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile/tests/common_imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile/tests/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile/tests/test_incremental_xmlfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/et_xmlfile/xmlfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal-1.4.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/jdcal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl-3.0.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl-3.0.3.dist-info/LICENCE.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl-3.0.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl-3.0.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl-3.0.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl-3.0.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/_constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/cell/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/cell/_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/cell/cell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/cell/read_only.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/cell/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/_3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/area_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/axis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/bar_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/bubble_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/chartspace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/data_source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/descriptors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/error_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/legend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/line_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/marker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/pie_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/pivot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/plotarea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/print_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/radar_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/reference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/scatter_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/series.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/series_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/stock_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/surface_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/title.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/trendline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chart/updown_bars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/chartsheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/custom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/protection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/publish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/relation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/chartsheet/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/comments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/comments/author.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/comments/comment_sheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/comments/comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/comments/shape_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/compat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/compat/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/compat/accumulate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/compat/numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/compat/singleton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/compat/strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/namespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/nested.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/serialisable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/descriptors/slots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/drawing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/effect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/fill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/graphic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/relation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/spreadsheet_drawing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/drawing/xdr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/formatting/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/formatting/formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/formatting/rule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/formula/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/formula/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/formula/translate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/packaging/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/packaging/extended.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/packaging/interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/packaging/manifest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/packaging/relationship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/packaging/workbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/pivot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/pivot/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/pivot/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/pivot/record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/pivot/table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/reader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/reader/drawings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/reader/excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/reader/strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/reader/workbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/alignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/borders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/builtins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/cell_style.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/differential.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/fills.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/fonts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/named_styles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/protection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/styleable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/stylesheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/styles/table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/bound_dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/cell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/dataframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/datetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/escape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/formulas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/indexed_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/protection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/utils/units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/child.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/defined_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/external_link/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/external_link/external.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/external_reference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/function_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/protection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/smart_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/workbook/workbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/_read_only.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/_write_only.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/cell_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/cell_watch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/controls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/copier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/custom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/datavalidation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/dimensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/drawing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/header_footer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/hyperlink.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/ole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/pagebreak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/protection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/related.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/scenario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/smart_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/worksheet/worksheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/writer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/writer/excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/writer/theme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/xml/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/xml/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/openpyxl/xml/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt-1.3.0.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt-1.3.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt-1.3.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt-1.3.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt-1.3.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt-1.3.0.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt-1.3.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/BIFFRecords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Bitmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Cell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Column.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/CompoundDoc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/ExcelFormula.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/ExcelFormulaLexer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/ExcelFormulaParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/ExcelMagic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Row.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Style.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/UnicodeUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Workbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/Worksheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/antlr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据分析/venv_macos/lib/python3.8/site-packages/xlwt/excel-formula.g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据分析/3_Pandas/3.1_Pandas基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/../数据分析/3_Pandas/3.1_Pandas基础.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="b0a2fc84-0f76-4a02-8219-e9d84caa3071" />
+  <component name="ProjectId" id="1bvVoGZcwrVNyv76NDLJZVgc59V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/4_爬虫框架/dazhongdianping" />
+      <recent name="$PROJECT_DIR$/3_数据存储/3.2_csv文件" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库/2.2.5_知乎热搜集" />
+      <recent name="$PROJECT_DIR$/4_爬虫框架/dazhongdianping/dazhongdianping" />
+      <recent name="$PROJECT_DIR$/4_爬虫框架/dazhongdianping" />
+      <recent name="$PROJECT_DIR$/4_爬虫框架/dazhongdianping/spiders" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Python 进度条">
+    <configuration name="爬取上海链家二手房" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="爬虫学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv_macos/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬取上海链家二手房.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="爬虫学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv_macos/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.2.5_知乎热榜榜" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="爬虫学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv_macos/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库/2.2.5_知乎热榜榜.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python 进度条" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="爬虫学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv_macos/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python 进度条.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="爬虫学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv_macos/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="begin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="爬虫学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv_macos/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_爬虫框架/dazhongdianping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_爬虫框架/dazhongdianping/begin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.begin" />
+      <item itemvalue="Python.2.2.5_知乎热榜榜" />
+      <item itemvalue="Python.爬取上海链家二手房" />
+      <item itemvalue="Python.1" />
+      <item itemvalue="Python.Python 进度条" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Python 进度条" />
+        <item itemvalue="Python.爬取上海链家二手房" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.2.2.5_知乎热榜榜" />
+        <item itemvalue="Python.begin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89934ebb-3884-457a-b6bf-b5f19923f6de" name="Default Changelist" comment="" />
+      <created>1589512726805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589512726805</updated>
+      <workItem from="1589512728365" duration="10000" />
+      <workItem from="1589512849960" duration="176000" />
+      <workItem from="1589513029360" duration="93000" />
+      <workItem from="1589513356381" duration="98000" />
+      <workItem from="1589513532942" duration="129000" />
+      <workItem from="1589513694464" duration="295000" />
+      <workItem from="1589514065262" duration="2174000" />
+      <workItem from="1589527060623" duration="14890000" />
+      <workItem from="1589557667622" duration="2132000" />
+      <workItem from="1589610467839" duration="2157000" />
+      <workItem from="1589612913384" duration="14681000" />
+      <workItem from="1589785921857" duration="7619000" />
+      <workItem from="1589795108778" duration="4638000" />
+      <workItem from="1589868984375" duration="218000" />
+      <workItem from="1589869608167" duration="9007000" />
+      <workItem from="1589898731084" duration="934000" />
+      <workItem from="1589906056566" duration="12527000" />
+      <workItem from="1590030116072" duration="15000" />
+      <workItem from="1590030439593" duration="24313000" />
+      <workItem from="1590304575282" duration="4532000" />
+      <workItem from="1590584252346" duration="650000" />
+      <workItem from="1590587900194" duration="3532000" />
+      <workItem from="1590658632604" duration="337000" />
+      <workItem from="1590825731650" duration="196000" />
+      <workItem from="1590825945856" duration="206000" />
+      <workItem from="1591082440900" duration="8947000" />
+      <workItem from="1591120831729" duration="826000" />
+      <workItem from="1591121663516" duration="165000" />
+      <workItem from="1591121830806" duration="38000" />
+      <workItem from="1591155274911" duration="81000" />
+      <workItem from="1591160593956" duration="139000" />
+      <workItem from="1591163002028" duration="4000" />
+      <workItem from="1591163026785" duration="232000" />
+      <workItem from="1591163294499" duration="263000" />
+      <workItem from="1591163564875" duration="84000" />
+      <workItem from="1591163651096" duration="138000" />
+      <workItem from="1591163792003" duration="111000" />
+      <workItem from="1591163905426" duration="20000" />
+      <workItem from="1591163927896" duration="1909000" />
+      <workItem from="1591597777127" duration="180000" />
+      <workItem from="1591602938184" duration="126000" />
+      <workItem from="1591603420099" duration="54000" />
+      <workItem from="1591603575902" duration="195000" />
+      <workItem from="1591605185778" duration="6000" />
+      <workItem from="1591610210265" duration="36000" />
+      <workItem from="1591610972822" duration="26000" />
+      <workItem from="1591611085671" duration="20000" />
+      <workItem from="1591626481585" duration="234000" />
+      <workItem from="1591627042763" duration="759000" />
+      <workItem from="1591628306482" duration="178000" />
+      <workItem from="1591766959373" duration="13000" />
+      <workItem from="1591865510633" duration="383000" />
+      <workItem from="1591981584840" duration="49000" />
+      <workItem from="1591981659771" duration="13240000" />
+      <workItem from="1592039135669" duration="3194000" />
+      <workItem from="1592099157509" duration="5457000" />
+      <workItem from="1592300158798" duration="598000" />
+      <workItem from="1592370407106" duration="20387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="206" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592035492973">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="205" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.1398.877/0.-1057.1920.1057@42.23.1398.877" timestamp="1592030918677" />
+    <state x="206" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1592035492973" />
+    <state x="207" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1592033812524" />
+    <state x="211" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590291666594" />
+    <state x="216" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/55.23.1385.877@55.23.1385.877" timestamp="1590588266523" />
+    <state width="1347" height="184" key="GridCell.Tab.0.bottom" timestamp="1592500561867">
+      <screen x="51" y="23" width="1389" height="877" />
+    </state>
+    <state width="1353" height="231" key="GridCell.Tab.0.bottom/42.23.1398.877/0.-1057.1920.1057@42.23.1398.877" timestamp="1592030903549" />
+    <state width="1353" height="231" key="GridCell.Tab.0.bottom/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1592039008359" />
+    <state width="1347" height="231" key="GridCell.Tab.0.bottom/43.23.1397.877@43.23.1397.877" timestamp="1591121827806" />
+    <state width="1353" height="231" key="GridCell.Tab.0.bottom/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1592034147761" />
+    <state width="1347" height="185" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1592380469570" />
+    <state width="1353" height="231" key="GridCell.Tab.0.bottom/46.23.1394.877/0.-1057.1920.1057@46.23.1394.877" timestamp="1592025945516" />
+    <state width="566" height="184" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1592459267378" />
+    <state width="1348" height="231" key="GridCell.Tab.0.bottom/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1590301794092" />
+    <state width="1347" height="185" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1592379436689" />
+    <state width="1348" height="231" key="GridCell.Tab.0.bottom/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590296953400" />
+    <state width="1343" height="231" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1590649647363" />
+    <state width="1347" height="184" key="GridCell.Tab.0.bottom/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1592500561867" />
+    <state width="1347" height="231" key="GridCell.Tab.0.bottom/51.23.1389.877@51.23.1389.877" timestamp="1591163648154" />
+    <state width="1344" height="231" key="GridCell.Tab.0.bottom/53.23.1387.877/0.-1057.1920.1057@53.23.1387.877" timestamp="1590032731128" />
+    <state width="1349" height="231" key="GridCell.Tab.0.bottom/53.23.1387.877@53.23.1387.877" timestamp="1590586083740" />
+    <state width="1343" height="231" key="GridCell.Tab.0.bottom/55.23.1385.877/0.-1057.1920.1057@55.23.1385.877" timestamp="1589870029220" />
+    <state width="1343" height="231" key="GridCell.Tab.0.bottom/55.23.1385.877@55.23.1385.877" timestamp="1590589970867" />
+    <state width="1347" height="184" key="GridCell.Tab.0.center" timestamp="1592500561865">
+      <screen x="51" y="23" width="1389" height="877" />
+    </state>
+    <state width="1353" height="231" key="GridCell.Tab.0.center/42.23.1398.877/0.-1057.1920.1057@42.23.1398.877" timestamp="1592030903548" />
+    <state width="1353" height="231" key="GridCell.Tab.0.center/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1592039008358" />
+    <state width="1347" height="231" key="GridCell.Tab.0.center/43.23.1397.877@43.23.1397.877" timestamp="1591121827805" />
+    <state width="1353" height="231" key="GridCell.Tab.0.center/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1592034147760" />
+    <state width="1347" height="185" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1592380469569" />
+    <state width="1353" height="231" key="GridCell.Tab.0.center/46.23.1394.877/0.-1057.1920.1057@46.23.1394.877" timestamp="1592025945514" />
+    <state width="566" height="184" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1592459267377" />
+    <state width="1348" height="231" key="GridCell.Tab.0.center/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1590301794091" />
+    <state width="1347" height="185" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1592379436688" />
+    <state width="1348" height="231" key="GridCell.Tab.0.center/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590296953399" />
+    <state width="1343" height="231" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1590649647363" />
+    <state width="1347" height="184" key="GridCell.Tab.0.center/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1592500561865" />
+    <state width="1347" height="231" key="GridCell.Tab.0.center/51.23.1389.877@51.23.1389.877" timestamp="1591163648152" />
+    <state width="1344" height="231" key="GridCell.Tab.0.center/53.23.1387.877/0.-1057.1920.1057@53.23.1387.877" timestamp="1590032731127" />
+    <state width="1349" height="231" key="GridCell.Tab.0.center/53.23.1387.877@53.23.1387.877" timestamp="1590586083740" />
+    <state width="1343" height="231" key="GridCell.Tab.0.center/55.23.1385.877/0.-1057.1920.1057@55.23.1385.877" timestamp="1589870029219" />
+    <state width="1343" height="231" key="GridCell.Tab.0.center/55.23.1385.877@55.23.1385.877" timestamp="1590589970864" />
+    <state width="1347" height="184" key="GridCell.Tab.0.left" timestamp="1592500561864">
+      <screen x="51" y="23" width="1389" height="877" />
+    </state>
+    <state width="1353" height="231" key="GridCell.Tab.0.left/42.23.1398.877/0.-1057.1920.1057@42.23.1398.877" timestamp="1592030903548" />
+    <state width="1353" height="231" key="GridCell.Tab.0.left/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1592039008357" />
+    <state width="1347" height="231" key="GridCell.Tab.0.left/43.23.1397.877@43.23.1397.877" timestamp="1591121827805" />
+    <state width="1353" height="231" key="GridCell.Tab.0.left/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1592034147759" />
+    <state width="1347" height="185" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1592380469569" />
+    <state width="1353" height="231" key="GridCell.Tab.0.left/46.23.1394.877/0.-1057.1920.1057@46.23.1394.877" timestamp="1592025945511" />
+    <state width="566" height="184" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1592459267377" />
+    <state width="1348" height="231" key="GridCell.Tab.0.left/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1590301794091" />
+    <state width="1347" height="185" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1592379436688" />
+    <state width="1348" height="231" key="GridCell.Tab.0.left/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590296953399" />
+    <state width="1343" height="231" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1590649647363" />
+    <state width="1347" height="184" key="GridCell.Tab.0.left/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1592500561864" />
+    <state width="1347" height="231" key="GridCell.Tab.0.left/51.23.1389.877@51.23.1389.877" timestamp="1591163648148" />
+    <state width="1344" height="231" key="GridCell.Tab.0.left/53.23.1387.877/0.-1057.1920.1057@53.23.1387.877" timestamp="1590032731127" />
+    <state width="1349" height="231" key="GridCell.Tab.0.left/53.23.1387.877@53.23.1387.877" timestamp="1590586083739" />
+    <state width="1343" height="231" key="GridCell.Tab.0.left/55.23.1385.877/0.-1057.1920.1057@55.23.1385.877" timestamp="1589870029219" />
+    <state width="1343" height="231" key="GridCell.Tab.0.left/55.23.1385.877@55.23.1385.877" timestamp="1590589970863" />
+    <state width="1347" height="184" key="GridCell.Tab.0.right" timestamp="1592500561866">
+      <screen x="51" y="23" width="1389" height="877" />
+    </state>
+    <state width="1353" height="231" key="GridCell.Tab.0.right/42.23.1398.877/0.-1057.1920.1057@42.23.1398.877" timestamp="1592030903549" />
+    <state width="1353" height="231" key="GridCell.Tab.0.right/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1592039008358" />
+    <state width="1347" height="231" key="GridCell.Tab.0.right/43.23.1397.877@43.23.1397.877" timestamp="1591121827806" />
+    <state width="1353" height="231" key="GridCell.Tab.0.right/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1592034147760" />
+    <state width="1347" height="185" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1592380469570" />
+    <state width="1353" height="231" key="GridCell.Tab.0.right/46.23.1394.877/0.-1057.1920.1057@46.23.1394.877" timestamp="1592025945516" />
+    <state width="566" height="184" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1592459267378" />
+    <state width="1348" height="231" key="GridCell.Tab.0.right/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1590301794092" />
+    <state width="1347" height="185" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1592379436689" />
+    <state width="1348" height="231" key="GridCell.Tab.0.right/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590296953399" />
+    <state width="1343" height="231" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1590649647363" />
+    <state width="1347" height="184" key="GridCell.Tab.0.right/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1592500561866" />
+    <state width="1347" height="231" key="GridCell.Tab.0.right/51.23.1389.877@51.23.1389.877" timestamp="1591163648153" />
+    <state width="1344" height="231" key="GridCell.Tab.0.right/53.23.1387.877/0.-1057.1920.1057@53.23.1387.877" timestamp="1590032731127" />
+    <state width="1349" height="231" key="GridCell.Tab.0.right/53.23.1387.877@53.23.1387.877" timestamp="1590586083740" />
+    <state width="1343" height="231" key="GridCell.Tab.0.right/55.23.1385.877/0.-1057.1920.1057@55.23.1385.877" timestamp="1589870029219" />
+    <state width="1343" height="231" key="GridCell.Tab.0.right/55.23.1385.877@55.23.1385.877" timestamp="1590589970866" />
+    <state width="1353" height="276" key="GridCell.Tab.1.bottom" timestamp="1591120745559">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1353" height="276" key="GridCell.Tab.1.bottom/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1591086688063" />
+    <state width="1354" height="276" key="GridCell.Tab.1.bottom/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1589868979962" />
+    <state width="1353" height="276" key="GridCell.Tab.1.bottom/44.23.1396.877@44.23.1396.877" timestamp="1591120745559" />
+    <state width="1351" height="276" key="GridCell.Tab.1.bottom/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1589553896687" />
+    <state width="1343" height="276" key="GridCell.Tab.1.bottom/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1589898727560" />
+    <state width="544" height="267" key="GridCell.Tab.1.bottom/51.23.1389.877@51.23.1389.877" timestamp="1589546701029" />
+    <state width="1353" height="276" key="GridCell.Tab.1.center" timestamp="1591120745558">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1353" height="276" key="GridCell.Tab.1.center/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1591086688061" />
+    <state width="1354" height="276" key="GridCell.Tab.1.center/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1589868979960" />
+    <state width="1353" height="276" key="GridCell.Tab.1.center/44.23.1396.877@44.23.1396.877" timestamp="1591120745558" />
+    <state width="1351" height="276" key="GridCell.Tab.1.center/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1589553896686" />
+    <state width="1343" height="276" key="GridCell.Tab.1.center/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1589898727559" />
+    <state width="544" height="267" key="GridCell.Tab.1.center/51.23.1389.877@51.23.1389.877" timestamp="1589546701028" />
+    <state width="1353" height="276" key="GridCell.Tab.1.left" timestamp="1591120745558">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1353" height="276" key="GridCell.Tab.1.left/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1591086688060" />
+    <state width="1354" height="276" key="GridCell.Tab.1.left/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1589868979960" />
+    <state width="1353" height="276" key="GridCell.Tab.1.left/44.23.1396.877@44.23.1396.877" timestamp="1591120745558" />
+    <state width="1351" height="276" key="GridCell.Tab.1.left/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1589553896686" />
+    <state width="1343" height="276" key="GridCell.Tab.1.left/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1589898727559" />
+    <state width="544" height="267" key="GridCell.Tab.1.left/51.23.1389.877@51.23.1389.877" timestamp="1589546701028" />
+    <state width="1353" height="276" key="GridCell.Tab.1.right" timestamp="1591120745558">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1353" height="276" key="GridCell.Tab.1.right/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1591086688061" />
+    <state width="1354" height="276" key="GridCell.Tab.1.right/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1589868979961" />
+    <state width="1353" height="276" key="GridCell.Tab.1.right/44.23.1396.877@44.23.1396.877" timestamp="1591120745558" />
+    <state width="1351" height="276" key="GridCell.Tab.1.right/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1589553896686" />
+    <state width="1343" height="276" key="GridCell.Tab.1.right/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1589898727560" />
+    <state width="544" height="267" key="GridCell.Tab.1.right/51.23.1389.877@51.23.1389.877" timestamp="1589546701029" />
+    <state x="152" y="70" key="MergeDialog" timestamp="1591121438140">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="152" y="70" key="MergeDialog/43.23.1397.877@43.23.1397.877" timestamp="1591121438140" />
+    <state x="489" y="311" width="443" height="240" key="MultipleFileMergeDialog" timestamp="1591121613745">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="489" y="311" width="443" height="240" key="MultipleFileMergeDialog/43.23.1397.877@43.23.1397.877" timestamp="1591121613745" />
+    <state x="186" y="71" key="SettingsEditor" timestamp="1592404559408">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state x="183" y="71" key="SettingsEditor/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1592037781465" />
+    <state x="231" y="57" key="SettingsEditor/43.23.1397.877@43.23.1397.877" timestamp="1591121813673" />
+    <state x="217" y="77" key="SettingsEditor/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1592029621170" />
+    <state x="232" y="57" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1591120528458" />
+    <state x="246" y="58" key="SettingsEditor/46.23.1394.877/0.-1057.1920.1057@46.23.1394.877" timestamp="1589868772962" />
+    <state x="186" y="71" key="SettingsEditor/46.23.1394.877@46.23.1394.877" timestamp="1592404559408" />
+    <state x="202" y="61" key="SettingsEditor/47.23.1393.877/0.-1057.1920.1057@47.23.1393.877" timestamp="1589615252064" />
+    <state x="239" y="70" key="SettingsEditor/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590050301869" />
+    <state x="196" y="52" key="SettingsEditor/49.23.1391.877@49.23.1391.877" timestamp="1590825989234" />
+    <state x="198" y="52" key="SettingsEditor/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1589611766982" />
+    <state x="258" y="51" key="SettingsEditor/51.23.1389.877@51.23.1389.877" timestamp="1591163806026" />
+    <state x="227" y="77" key="SettingsEditor/55.23.1385.877/0.-1057.1920.1057@55.23.1385.877" timestamp="1589869851359" />
+    <state x="244" y="70" key="SettingsEditor/55.23.1385.877@55.23.1385.877" timestamp="1590589968505" />
+    <state x="191" y="175" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1589787627435">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="191" y="175" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/43.23.1397.877/0.-1057.1920.1057@43.23.1397.877" timestamp="1589787627435" />
+    <state x="538" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591163571390">
+      <screen x="51" y="23" width="1389" height="877" />
+    </state>
+    <state x="533" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/43.23.1397.877@43.23.1397.877" timestamp="1591121343218" />
+    <state x="538" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.23.1389.877@51.23.1389.877" timestamp="1591163571390" />
+    <state x="329" y="125" key="editAsTableFormatDialogDimension" timestamp="1592067324612">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state x="327" y="125" key="editAsTableFormatDialogDimension/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1590027520827" />
+    <state x="329" y="125" key="editAsTableFormatDialogDimension/46.23.1394.877/0.-1057.1920.1057@46.23.1394.877" timestamp="1592067324612" />
+    <state x="331" y="125" key="editAsTableFormatDialogDimension/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590050577768" />
+    <state x="331" y="125" key="editAsTableFormatDialogDimension/49.23.1391.877@49.23.1391.877" timestamp="1590305004135" />
+    <state x="333" y="125" key="editAsTableFormatDialogDimension/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1589895135740" />
+    <state x="429" y="223" width="596" height="474" key="find.popup" timestamp="1589767662922">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state x="429" y="223" width="596" height="474" key="find.popup/44.23.1396.877/0.-1057.1920.1057@44.23.1396.877" timestamp="1589767662922" />
+    <state x="409" y="213" width="671" height="676" key="search.everywhere.popup" timestamp="1590049988330">
+      <screen x="49" y="23" width="1391" height="877" />
+    </state>
+    <state x="409" y="213" width="671" height="676" key="search.everywhere.popup/49.23.1391.877/0.-1057.1920.1057@49.23.1391.877" timestamp="1590049988330" />
+    <state x="410" y="213" width="670" height="676" key="search.everywhere.popup/51.23.1389.877/0.-1057.1920.1057@51.23.1389.877" timestamp="1589893821054" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$1_7_.coverage" NAME="1.7_豆瓣网模拟登陆 Coverage Results" MODIFIED="1592027686103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_网络请求/1.2_requests库" />
+    <SUITE FILE_PATH="coverage/$2_7__.coverage" NAME="2.7_爬取淘宝商品_案例 Coverage Results" MODIFIED="1589522008110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day02_beautiful soup库" />
+    <SUITE FILE_PATH="coverage/$3_1_1_json.coverage" NAME="3.1.1_字典和列表转成json字符串 Coverage Results" MODIFIED="1589531254522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_数据存储/3.1_JSON文件" />
+    <SUITE FILE_PATH="coverage/$run.coverage" NAME="run Coverage Results" MODIFIED="1592035526108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_爬虫框架/dazhongdianping" />
+    <SUITE FILE_PATH="coverage/$run_dazhongdianping.coverage" NAME="run_dazhongdianping Coverage Results" MODIFIED="1592034147753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_爬虫框架/dazhongdianping" />
+    <SUITE FILE_PATH="coverage/$cookie.coverage" NAME="cookie自动处理 Coverage Results" MODIFIED="1590309595935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$2_2_9_.coverage" NAME="2.2.9_爬取大众点评网 Coverage Results" MODIFIED="1591087614944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$items.coverage" NAME="items Coverage Results" MODIFIED="1592035641235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_爬虫框架/dazhongdianping" />
+    <SUITE FILE_PATH="coverage/$2_2_7_.coverage" NAME="2.2.7_爬取链家商品详情页图片 Coverage Results" MODIFIED="1590309415786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$2.coverage" NAME="Python 进度条 Coverage Results" MODIFIED="1592459267350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$2_2_2_.coverage" NAME="2.2.2_爬取链家上海 Coverage Results" MODIFIED="1589794500906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$try.coverage" NAME="try Coverage Results" MODIFIED="1590308925743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$3_1_2_jsonPython.coverage" NAME="3.1.2_json字符串加载为Python对象 Coverage Results" MODIFIED="1589532077370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_数据存储/3.1_JSON文件" />
+    <SUITE FILE_PATH="coverage/$2_2_4_.coverage" NAME="2.2.4_爬起京东商品 Coverage Results" MODIFIED="1589792742577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$2_2_6_.coverage" NAME="2.2.6_微博热搜榜 Coverage Results" MODIFIED="1591121696111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$1.coverage" NAME="1 Coverage Results" MODIFIED="1592382032296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$selsnium.coverage" NAME="selsnium模拟登陆豆瓣 Coverage Results" MODIFIED="1592026099268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$begin.coverage" NAME="begin Coverage Results" MODIFIED="1592036975139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_爬虫框架/dazhongdianping" />
+    <SUITE FILE_PATH="coverage/$3_2_2_csv.coverage" NAME="3.2.2_存储csv文件 Coverage Results" MODIFIED="1589547954176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_数据存储/3.2_csv文件" />
+    <SUITE FILE_PATH="coverage/$3_2_1_csv.coverage" NAME="3.2.1_读取csv文件 Coverage Results" MODIFIED="1589546939151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_数据存储/3.2_csv文件" />
+    <SUITE FILE_PATH="coverage/$dzdpSpider__1_.coverage" NAME="dzdpSpider (1) Coverage Results" MODIFIED="1592036795542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_爬虫框架/dazhongdianping/spiders" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="爬取上海链家二手房 Coverage Results" MODIFIED="1592387330082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$DecryptLogin.coverage" NAME="DecryptLogin库 Coverage Results" MODIFIED="1592030943014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_网络请求/1.2_requests库" />
+    <SUITE FILE_PATH="coverage/$dzdpSpider.coverage" NAME="dzdpSpider Coverage Results" MODIFIED="1592036160998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_爬虫框架/dazhongdianping/spiders" />
+    <SUITE FILE_PATH="coverage/$2_2_3_.coverage" NAME="2.2.3_爬取蘑菇街商品 Coverage Results" MODIFIED="1589791252482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$2_2_8_.coverage" NAME="2.2.8_爬取梨视频 Coverage Results" MODIFIED="1590589292907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$2_Douban.coverage" NAME="练习2_Douban Coverage Results" MODIFIED="1589527374620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day01" />
+    <SUITE FILE_PATH="coverage/$1_5__.coverage" NAME="1.5_爬取进阶案例_爬取网络图片 Coverage Results" MODIFIED="1591603752192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_网络请求/1.2_requests库" />
+    <SUITE FILE_PATH="coverage/$2_2_5_.coverage" NAME="2.2.5_知乎热榜榜 Coverage Results" MODIFIED="1592066930088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+    <SUITE FILE_PATH="coverage/$selenium.coverage" NAME="selenium+chrome自动化测试 Coverage Results" MODIFIED="1591983744700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$2_2_5_20200518.coverage" NAME="2.2.5_知乎热榜榜 Coverage Results" MODIFIED="1590027782514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_数据提取/2.2_lxml&amp;xpath库" />
+  </component>
+</project>
