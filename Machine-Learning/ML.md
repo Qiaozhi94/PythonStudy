@@ -17,7 +17,7 @@
 机器学习与深度学习的区别可以参照如下两图解，均摘取自《Deep Learning》（即《深度学习》花书版，作者为 Ian Goodfellow, Yoshua Bengio, Aaron Courville）
 
 ![image](https://github.com/Qiaozhi94/Python-Projects/blob/main/Machine-Learning/img/2022-01-31-22-27-01-image.png)
-![image](https://qiaozhi94.oss-cn-beijing.aliyuncs.com/myblog/微信图片_20220123012624.jpg)
+![image](![](https://qiaozhi94.oss-cn-beijing.aliyuncs.com/myblog/Marx_Lenin_clipart.svg))
 
 该图解非常清晰的展示了人工智能（AI），机器学习（Machine Learning），表示学习（Representation Learning）和深度学习（Deep Learning）之间的从属关系，下面的引用部分深入介绍个各部分的含义与典型例子。
 
