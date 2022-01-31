@@ -16,7 +16,7 @@
 
 机器学习与深度学习的区别
 
-![](C:\Users\qiaoz\AppData\Roaming\marktext\images\2022-01-31-22-27-01-image.png)
+![image](https://github.com/Qiaozhi94/Python-Projects/blob/main/Machine-Learning/img/2022-01-31-22-27-01-image.png)
 
 ![](C:\Users\qiaoz\AppData\Roaming\marktext\images\2022-01-31-22-27-57-image.png)
 
