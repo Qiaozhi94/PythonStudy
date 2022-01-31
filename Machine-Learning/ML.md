@@ -39,5 +39,13 @@
 > 显然，从原始数据中提取如此高层次、抽象的特征是十分困难的。许多诸如说话口音这样的变差因素，只能通过对数据进行复杂的、接近人类水平的理解来辨识。这几乎与获得原问题的表示一样困难。因此，表示学习似乎并不能帮助我们。
 > 
 > **深度学习**（Deep Learning）通过其他较为简单的表示来表达复杂表示，解决了表示学习中的核心问题。深度学习让计算机通过简单概念构建复杂的概念，深度学习的典型例子是前馈深度网络或**多层感知机**（Multilayer Perception，MLP）。多层感知机仅仅是一个将一组输入值映射到输出值的数学函数。该函数由许多较简单的函数复合而成。我们可以认为不同数学函数的每一次应用都为输入提供了新的表示。
+<<<<<<< Updated upstream
+=======
+
+![](D:\Code-Documents\GitHub\Python-Projects\Machine-Learning\img\2022-01-31-22-27-57-image.png)
+
+
+
+>>>>>>> Stashed changes
 
 ![image](https://github.com/Qiaozhi94/Python-Projects/blob/main/Machine-Learning/img/2022-01-31-22-27-57-image.png)
