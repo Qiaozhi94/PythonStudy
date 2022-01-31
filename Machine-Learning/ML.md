@@ -18,7 +18,7 @@
 
 ![image](https://github.com/Qiaozhi94/Python-Projects/blob/main/Machine-Learning/img/2022-01-31-22-27-01-image.png)
 
-![](C:\Users\qiaoz\AppData\Roaming\marktext\images\2022-01-31-22-27-57-image.png)
+![image](https://github.com/Qiaozhi94/Python-Projects/blob/main/Machine-Learning/img/2022-01-31-22-27-57-image.png)
 
 两图均摘取自《Deep Learning》（即《深度学习》花书版，作者为 Ian Goodfellow, Yoshua Bengio, Aaron Courville）
 
