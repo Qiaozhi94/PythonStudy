@@ -123,3 +123,17 @@
 如果训练错误率低，但推广错误率高，意味着模型对训练数据过拟合。
 
 
+````
+```js
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+````
+
+
+$$
+\operatorname{RMSE}(\mathbf{X}, h)=\sqrt{\frac{1}{m} \sum_{i=1}^{m}\left(h\left(\mathbf{x}^{(i)}\right)-y^{(i)}\right)^{2}}
+$$
