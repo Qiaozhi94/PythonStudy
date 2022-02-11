@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# _*_coding:utf-8_*_
+"""
+@ File    :2-1检测数据结构.py
+@ Time    :2022/2/11  15:00
+@ Author  :qiaozhi94
+@ Email   :qiaozhi_li@126.ocm
+@ IDE     :PyCharm
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

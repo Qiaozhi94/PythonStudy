@@ -79,6 +79,57 @@ print("----------------------------------------")
 
 **5. 创建测试集**
 
+在机器学习第一个阶段需要先创建测试集，以便之后机器学习完成后对学习成果进行测试。一般上创建测试集比较简单，只需要随机选择一些实例，通常是整个数据集的20%（如果数据量非常大，则比例可能会更小）
+以下是创建数据集的第一阶段，分为分步熟悉阶段和完整代码阶段：
+ ```python
+ #!/usr/bin/env python3  
+# _*_coding:utf-8_*_  
+"""  
+@ File    :2-2分离测试集.py  
+@ Time    :2022/2/11  15:00  
+@ Author  :qiaozhi94  
+@ Email   :qiaozhi_li@126.ocm  
+@ IDE     :PyCharm  
+"""  
+import pandas as pd  
+import numpy as np  
+  
+# 分步熟悉阶段  
+a = np.random.permutation(10)  # 输入一个数，结果是生成一个随机序列  
+arr1 = np.arange(9).reshape((3, 3))  # 输入一个数组，结果是生成一个数组的随机序列  
+b = np.random.permutation(arr1)  
+print(a)  # 生成了一个随时序列  
+print(arr1)  # 快速生成一个三维数组  
+print(b)  # 和arr结果对比可知，permutation函数只对数组第一维进行打乱  
+print("----------------------------------------")  
+c = a[:3]  # 选取随机序列a中的前三个数字成为单独的数组  
+d = a[5:]  # 选取随机序列a中的后五个数字成为单独的数组  
+print(c)  
+print(d)  
+print("----------------------------------------")  
+  
+arr2 = pd.DataFrame(np.arange(16).reshape(4, 4), index=list('abcd'), columns=list('ABCD'))  
+print(arr2)  
+print(arr2.loc['a'])  # 取索引为'a'的行  
+print(arr2.iloc[0])  # 取第一行数据，索引为'a'的行就是第一行，所以结果与上面的相同  
+print(arr2.loc[:, ['A']])  # 取'A'列所有行，多取几列格式为 data.loc[:,['A','B']])print(arr2.iloc[:, [0]])  # 取第0列所有行，多取几列格式为 data.iloc[:,[0,1]])  
+  
+# 完整代码阶段  
+def split_train_test(data, test_ratio):  
+    shuffled_indices = np.random.permutation(len(data))  # 输入数据集的实例总数随机生成一个随机序列（见分步熟悉阶段）  
+ test_set_size = int(len(data) * test_ratio)  # 输入比例后得出测试集的实例数  
+ test_indices = shuffled_indices[:test_set_size]  # 按照测试集的大小选取随机虚列的前xx位数字标签  
+ train_indices = shuffled_indices[test_set_size:]  # 选取出测试集之后剩下的数字标签所对应的数据即为训练集的数据  
+ return data.iloc[train_indices], data.iloc[test_indices]  # 根据所选择的数字标签分别摘录出测试集与训练集的数据  
+  
+  
+hs = pd.read_csv('housing.csv')  
+train_set, test_set = split_train_test(hs, 0.2)  
+print(train_set)  
+print(len(train_set))  
+print(test_set)  
+print(len(test_set))
+ ```
 
-
-
+这样创建测试集会出现一个重大的问题，即每次运行都会是不一样的测试集，这样下去，机器就会陆续看到完整的数据集，这正是创建测试集的时候所要避免的。
+简单的解决方案是第一次运行程序后直接保存测试集到csv文件中，之后的运行只是调用加载它即可。
