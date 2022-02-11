@@ -56,10 +56,29 @@ $$\operatorname{MAE}(\boldsymbol{X}, h)=\frac{1}{m} \sum_{i=1}^{m}\left|h\left(\
 书中本章采用Jupyter notebook来进行演示，好处是轻量且直观。但博主自己有rtx显卡的笔记本，所以正好借此机会安装cuda，所以就使用了pycharm的pro版本（学生免费）来进行实验。
 配置环境的部分不在赘述，强烈建议使用anaconda3来管理，新建一个虚拟环境，在conda界面中使用pip安装必要的依赖包，然后在ide中自由切换虚拟环境，非常方便。
 **3. 下载数据**
-不同目的的机器学习的数据来源是不一样的，书中是写了一个函数自动从github网站上在相应目录下自动获取csv文件，这里我整个fork了handson-ml2的这个仓库并且同步到了本地，所以我直接把
- 
-**4. 检查数据**
+不同目的的机器学习的数据来源是不一样的，书中是写了一个函数自动从github网站上在相应目录下自动获取csv文件，这里博主整个fork了handson-ml2的这个仓库并且同步到了本地，所以就把要用到的csv文件复制到了python文件同目录下，从而省掉了下载数据的步骤。
+**4. 检查数据结构**
+数据集csv文件准备好之后，在着手开始后续步骤之前需要先检查数据结构，以防之后的学习与分析过程出现什么明显的问题。
+```python
+import pandas as pd  
+import matplotlib.pyplot as plt  
 
-
+hs = pd.read_csv('housing.csv')  
+print(hs)  
+print("----------------------------------------")  
+print(hs.info())  # 打印出csv文件的全部属性  
+# print(a.to_string())  # 打印出全部的csv数据  
+print("----------------------------------------")  
+print(hs["ocean_proximity"].value_counts())  # 查看csv文件中object的分类与数量关系  
+print(hs.describe())  # 查看csv文件中的所有数据的摘要和大致分布  
+print("----------------------------------------")  
+hs.hist(bins=50, figsize=(20, 15))  
+plt.show()  # 绘制各个指标分布图表进一步更准确的查看数据信息的分布
+print("----------------------------------------")  
+```
 
 **5. 创建测试集**
+
+
+
+
