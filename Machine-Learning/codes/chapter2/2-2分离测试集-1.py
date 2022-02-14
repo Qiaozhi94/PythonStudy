@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # _*_coding:utf-8_*_
 """
-@ File    :2-2分离测试集.py
+@ File    :2-2分离测试集-1.py
 @ Time    :2022/2/11  15:00
 @ Author  :qiaozhi94
 @ Email   :qiaozhi_li@126.ocm
