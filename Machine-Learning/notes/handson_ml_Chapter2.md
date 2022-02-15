@@ -132,5 +132,130 @@ print(len(test_set))
  ```
 
 这样创建测试集会出现一个重大的问题，即每次运行都会是不一样的测试集，这样下去，机器就会陆续看到完整的数据集，这正是创建测试集的时候所要避免的。
-简单的解决方案是第一次运行程序后直接保存测试集到csv文件中，之后的运行只是调用加载它即可。
+简单的解决方案是第一次运行程序后直接保存测试集到csv文件中，之后的运行只是调用加载它即可。另一种方法是在调用np.random.permutation()函数之前先设置一个随机数生成器的种子，从而让它始终生成相同的随机索引。
+但是，这两种解决方案在下一次获取更新的数据时都会中断。为了即使在更新数据集之后也有一个稳定的训练测试分割原则，常见的解决方案是每个实例都使用一个标识符来决定是否进入测试集（假定每个实例都有一个唯一且不变的标识符）。在这里在仔细观察数据集之后发现可以使用完全不变的区域的经纬度作为唯一且不变的标识符来进行分割数据集的工作。
+以下为使用Scikit-Learn库中的train_test_split()函数来快速进行分割数据集操作的代码：
+```python
+#!/usr/bin/env python3  
+# _*_coding:utf-8_*_  
+"""  
+@ File    :2-2分离测试集-随机抽样.py  
+@ Time    :2022/2/14 16:18  
+@ Author  :qiaozhi94  
+@ Email   :qiaozhi_li@126.ocm  
+@ IDE     :PyCharm  
+"""  
+  
+# 2-2分离测试集-1.py文件中只是使用了最简单随机的生成方法来分离测试集，这里则采用Scikit-Learn包中的train_test_split（）函数，其与前面定义的  
+# 函数split_train_test（）几乎相同，除了几个额外特征。首先，它也有random_state参数，让你可以设置随机生成器种子；  
+# 其次，你可以把行数相同的多个数据集一次性发送给它，它会根据相同的索引将其拆分（例如，当你有一个单独的DataFrame用于标记时，这就非常有用）  
+  
+from sklearn.model_selection import train_test_split  
+import pandas as pd  
+  
+hs = pd.read_csv('housing.csv')  
+train_set, test_set = train_test_split(hs, test_size=0.2, random_state=50)  
+  
+print(train_set)  
+print("-----------------------------------------------------------------------")  
+print(test_set)  
+  
+# 这是纯随机的抽样方法，如果数据集足够庞大（特别是相较于属性的数量而言），这种方式通常不错；如果不是的话，则有可能会导致明显的抽样偏差。  
+# 2-2分离测试集-分层抽样.py文件中则讲解了分层抽样方法，相比之下会更加准确。
+```
 
+以上都是纯随机的抽样方法，非常适用于数据量十分庞大且分布相对随机均匀的情况下。但大部分真实的数据都会存在不完全随机的情况，这时可以考察重要属性的分布情况来进行分层抽样得出测试集，可以更加准确的得知机器学习的成果。
+在本案例中可以采取收入中位数作为重要属性均分为六组后按照每组所占的比例分割数据集，代码如下：
+```python
+#!/usr/bin/env python3  
+# _*_coding:utf-8_*_  
+"""  
+@ File    :2-2分离测试集-分层抽样.py  
+@ Time    :2022/2/14 16:56  
+@ Author  :qiaozhi94  
+@ Email   :qiaozhi_li@126.ocm  
+@ IDE     :PyCharm  
+"""  
+  
+# 本次尝试使用分层抽样方法替代随机抽样方法，这里采用收入中位数这一重要属性来衡量放家中位数。  
+# 目标是希望确保在收入属性上，测试集能够代表整个数据集中各种不同类型的收入。  
+  
+  
+import pandas as pd  
+import numpy as np  
+import matplotlib.pyplot as plt  
+from sklearn.model_selection import StratifiedShuffleSplit  
+  
+hs = pd.read_csv('housing.csv')  
+hs["income_column"] = pd.cut(hs["median_income"], bins=[0., 1.5, 3.0, 4.5, 6., np.inf], labels=[1, 2, 3, 4, 5])  
+# np.inf表示无穷大的意思  
+hs["income_column"].hist()  
+plt.show()  # 先将数据集的收入中位数按照从小到大的顺序均分为六组，然后绘图得到数据集在这六组中的分布  
+  
+split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)  
+# 接下来就可以通过StratifiedShuffleSplit函数进行分层抽样区分测试集和训练集了  
+  
+for train_index, test_index in split.split(hs, hs["income_column"]):  
+    strat_train_set = hs.loc[train_index]  
+    strat_test_set = hs.loc[test_index]  
+print(strat_test_set)  
+print("-----------------------------------------------------------------------")  
+print(strat_train_set)
+```
+
+**6. 数据可视化&寻找相关性**
+
+之前的检查数据只是粗略的观察数据的结构，现在我们需要知道房价中位数与哪些指标或属性具有强相关性，第一步我们需要将数据集可视化来更加深入的观察数据，所以根据经纬度数据绘制出数据集的散点图，同时设置alpha数值，可以更加清楚的查看散点图细节。最后设置圆的半径为人口数，圆的颜色表示房价中位数的高低，蓝色是低，红色是高，最后得出最终信息表达最明确的数据集散点图。
+在充分查看完成可视化的数据之后，我们需要进一步得知房价中位数与哪些属性具有强相关性，可以使用pandas的相关性系数-DataFrame.corr()函数来计算出每对属性之
+间的标准相关系数（也称为皮尔逊r）。
+可以看到返回的矩阵数据得知：相关系数的范围从-1变化到1。越接近1，表示有越强的正相关。例如，当收入中位数上升时，房价中位数也趋于上升。当系数接近于-1时，表示有较强的负相关。我们可以看到纬度和房价中位数之间呈现出轻微的负相关（也就是说，越往北走，房价倾向于下降）。最后，系数靠近0则说明二者之间没有线性相关性。
+
+```python
+#!/usr/bin/env python3  
+# _*_coding:utf-8_*_  
+"""  
+@ File    :2-4可视化训练集数据.py  
+@ Time    :2022/2/15 12:11  
+@ Author  :qiaozhi94  
+@ Email   :qiaozhi_li@126.ocm  
+@ IDE     :PyCharm  
+"""  
+  
+import pandas as pd  
+import matplotlib.pyplot as plt  
+  
+hs = pd.read_csv('housing_test.csv')  
+hs.plot(kind="scatter", x="longitude", y="latitude")  # 根据经纬度画出数据集所分布的位置散点图  
+hs.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)  # 修改alpha值，可以比较清楚的看到高密度数据点的位置  
+hs.plot(kind="scatter", x="longitude", y="latitude", alpha=0.05)  
+  
+hs.plot(kind="scatter", x="longitude", y="latitude", alpha=0.4,  
+ s=hs["population"] / 100, label="population", figsize=(10, 7),  
+ c="median_house_value", cmap=plt.get_cmap("jet"), colorbar=True, )  
+# 使用圆的半径表示人口的多少，圆的颜色表示房价的高低，此时调用一个叫jet的预设颜色表可以画出更加清晰的价格与人口关系的散点分布图  
+  
+plt.legend()  
+plt.show()  
+  
+# 寻找数据相关性  
+corr_matrix = hs.corr()  # 由于数据集不大，你可以使用corr（）方法轻松计算出每对属性之间的标准相关系数（也称为皮尔逊r）：  
+print(corr_matrix["median_house_value"].sort_values(ascending=False))  
+# 查看结果可以看出与median_house_value与各个属性之间的相关性系数分布于1到-1之间, 分别为正相关，不相关与负相关性关系  
+# median_house_value    1.000000  
+# median_income         0.688075  
+# total_rooms           0.134153  
+# housing_median_age    0.105623  
+# households            0.065843  
+# total_bedrooms        0.049686  
+# population           -0.024650  
+# longitude            -0.045967  
+# latitude             -0.144160  
+# Name: median_house_value, dtype: float64  
+  
+# 画出收入中位数与房价中位数的散点关系图  
+hs.plot(kind="scatter", x="median_income", y="median_house_value", alpha=0.05)  
+plt.show()
+```
+
+
+**7. 机器学习算法的数据准备**
